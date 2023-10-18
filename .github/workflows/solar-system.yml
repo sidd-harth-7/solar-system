@@ -158,7 +158,7 @@ jobs:
             push: true
             tags: |
                 ${{ vars.DOCKERHUB_USERNAME }}/solar-system:${{ github.sha }}
-                ghcr.io/${{ github.repository_owner }}/solar-system:${{ github.sha }}
+             #  ghcr.io/${{ github.repository_owner }}/solar-system:${{ github.sha }}
 
     dev-deploy:
       needs: docker
