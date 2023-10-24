@@ -20,4 +20,5 @@ jobs:
       uses: sidd-harth-7/js-action-pr-giphy-comment@1.0.0-alpha
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        giphy-api-key: ${{ secrets.GIPHY_API_KEY }}
+        giphy-api-key: ${{ secrets.GIPHY_API_KEY }} 
+        
