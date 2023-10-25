@@ -16,7 +16,7 @@ jobs:
           issue_title="${{ github.event.issue.title }}"
           if [[ "$issue_title" == *"bug"* ]]; then
             echo "Issue is about a bug!"
-            echo "Assigning Label - BUG .... .... .... .. .... ..... ..""
+            echo "Assigning Label - BUG .... .... .... .. .... ..... .."
           else
             echo "Not a bug"
           fi
