@@ -21,5 +21,5 @@ jobs:
       - name: Analyze code with CodeQL
         uses: github/codeql-action/analyze@v2.22.8
 
-      - name: Upload CodeQL analysis results
-        uses: github/codeql-action/upload@v2.22.8
+      # - name: Upload CodeQL analysis results
+      #   uses: github/codeql-action/upload@v2.22.8
